@@ -13,6 +13,7 @@
 		263800081AB3268B00AC019A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263800071AB3268B00AC019A /* Images.xcassets */; };
 		2638000B1AB3268B00AC019A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263800091AB3268B00AC019A /* LaunchScreen.xib */; };
 		263800171AB3268B00AC019A /* Week1AssessmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 263800161AB3268B00AC019A /* Week1AssessmentTests.m */; };
+		263800221AB32F4300AC019A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263800211AB32F4300AC019A /* WebViewController.m */; };
 		2638FFFD1AB3268B00AC019A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638FFFC1AB3268B00AC019A /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		263800101AB3268B00AC019A /* Week1AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week1AssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263800151AB3268B00AC019A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		263800161AB3268B00AC019A /* Week1AssessmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week1AssessmentTests.m; sourceTree = "<group>"; };
+		263800201AB32F4300AC019A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		263800211AB32F4300AC019A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		2638FFF71AB3268B00AC019A /* Week1Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week1Assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2638FFFB1AB3268B00AC019A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2638FFFC1AB3268B00AC019A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				2638FFFF1AB3268B00AC019A /* AppDelegate.m */,
 				263800011AB3268B00AC019A /* ViewController.h */,
 				263800021AB3268B00AC019A /* ViewController.m */,
+				263800201AB32F4300AC019A /* WebViewController.h */,
+				263800211AB32F4300AC019A /* WebViewController.m */,
 				263800041AB3268B00AC019A /* Main.storyboard */,
 				263800071AB3268B00AC019A /* Images.xcassets */,
 				263800091AB3268B00AC019A /* LaunchScreen.xib */,
@@ -230,6 +235,7 @@
 				263800031AB3268B00AC019A /* ViewController.m in Sources */,
 				263800001AB3268B00AC019A /* AppDelegate.m in Sources */,
 				2638FFFD1AB3268B00AC019A /* main.m in Sources */,
+				263800221AB32F4300AC019A /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
